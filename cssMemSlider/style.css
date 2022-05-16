@@ -1,0 +1,23 @@
+.body{
+    margin: 0 auto;
+}
+.mem-slider {
+    display: flex;
+}
+.container {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.picture {
+    margin: auto;
+}
+.controls {
+    margin: auto
+}
+.buttons {
+    
+}
+.button {
+    
+}
