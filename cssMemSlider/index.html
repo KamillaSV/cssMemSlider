@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
     <title>MemSlider</title>
 </head>
 <body>
     <header class="logo">
-        <h1>Memчанские</h1>
+        <h1 class="logo-text">Memчанские</h1>
     </header>
     <main class="mem-slider">
         <div class="container">
-            <div class="picture">
-                <img src="./assets/deadline1.jpg" alt="deadmem">
+            <div class="slider">
+                <img class="picture" src="./assets/deadline1.jpg" alt="deadmem">
             </div>
             <div class="controls">
                 <div class="buttons">
-                    <div class="button"></div>
-                    <div class="button"></div>
-                    <div class="button"></div>
-                    <div class="button"></div>
-                    <div class="button"></div>
+                    <div class="button" id="1"></div>
+                    <div class="button" id="2"></div>
+                    <div class="button" id="3"></div>
+                    <div class="button" id="4"></div>
+                    <div class="button" id="5"></div>
                 </div>
             </div>
-            <p class="text">Some text here fun</p>
+            <div class="discription">
+                <p class="text">Some text here fun</p>
+            </div>
         </div>
     </main>
     <footer>
-
+        <div class="footer-container">
+            <div class="gt-link"><a href="https://github.com/KamillaSV"> <img src='./assets/GT.png' alt="GitHub" width=40 height=40></a>
+            </div>
+            <a>  Kamilla Safarova @ 2022 </a>
+            <div class="rsschool-link"><a href="https://rs.school/js/"> <img src='./assets/RS.png' alt="RS-School" width=115 height=40></a>
+            </div>
     </footer>
 </body>
+<script src="./index.js"></script>
 </html>

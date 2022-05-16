@@ -1,6 +1,16 @@
-.body{
+body{
+    margin: 0 auto;
+    background-color: rgb(48, 41, 41);
+}
+.logo {
+    display: flex;
     margin: 0 auto;
 }
+.logo-text {
+    margin: 0 auto;
+    color: rgb(234, 146, 46);
+}
+
 .mem-slider {
     display: flex;
 }
@@ -9,15 +19,51 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.picture {
+.slider {
     margin: auto;
 }
+.picture{
+    border-radius: 10px;
+}
 .controls {
-    margin: auto
+    margin: auto 0;
 }
 .buttons {
-    
+    height: 15px;
+    width: 100px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 .button {
-    
+    border: solid 1px blue;
+    border-radius: 50%;
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+.button:hover {
+    transition: .3ms;
+    background-color: white;
+    border: solid 1px white;
+}
+.choosed {
+    background-color: rgb(48, 41, 41);;
+    border: solid 1px blue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.choosed:hover{
+    transition: .3ms;
+    background-color: white;
+    border: solid 1px white;
+}
+.discription {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.text{
+    color: rgb(234, 146, 46);
+    margin: 0 auto;
 }
