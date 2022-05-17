@@ -1,32 +1,70 @@
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     background-color: rgb(48, 41, 41);
+    justify-content: space-between;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    align-content: center;
+    height: 10%;
 }
 .logo {
     display: flex;
-    margin: 0 auto;
+    align-content: center;
+    margin: auto;
 }
 .logo-text {
     margin: 0 auto;
     color: rgb(234, 146, 46);
 }
-
+.main {
+    display: flex;
+    height: 80%;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+}
 .mem-slider {
     display: flex;
+    height: 100%;
+    width: 765px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .container {
-    margin: 0 auto;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    align-content: center;
+    row-gap: 10px;
 }
 .slider {
-    margin: auto;
+    display: flex;
+    position: inherit;
+    height: 80%;
+    width: 100%;
 }
 .picture{
     border-radius: 10px;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    object-fit: fill;
 }
 .controls {
-    margin: auto 0;
+    position: relative;
+    height: 45px;
+    margin: 0 auto;
 }
 .buttons {
     height: 15px;
@@ -54,16 +92,31 @@ body{
     width: 10px;
     height: 10px;
 }
-.choosed:hover{
+.choosed:hover {
     transition: .3ms;
-    background-color: white;
     border: solid 1px white;
 }
 .discription {
     display: flex;
-    flex-wrap: nowrap;
+    height: 55px;
 }
 .text{
     color: rgb(234, 146, 46);
     margin: 0 auto;
+    font-size: 30px;
+}
+footer {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
 }
