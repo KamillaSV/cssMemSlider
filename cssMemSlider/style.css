@@ -20,9 +20,11 @@ body{
 .logo-text {
     margin: 0 auto;
     color: rgb(234, 146, 46);
+    font-size: 30px;
 }
 .main {
     display: flex;
+    margin: 0 auto;
     height: 80%;
     align-content: center;
     align-items: center;
@@ -60,7 +62,21 @@ body{
     height: auto;
     width: auto;
     object-fit: fill;
+    animation: slidein 1s ease 0s 1 normal forwards;
 }
+
+@keyframes slidein {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 .controls {
     position: relative;
     height: 45px;
@@ -99,11 +115,16 @@ body{
 .discription {
     display: flex;
     height: 55px;
+    align-items: center;
+    justify-content: center;
 }
 .text{
+    display: inline;
     color: rgb(234, 146, 46);
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    animation: slidein 1s ease 0s 1 normal forwards;
 }
 footer {
     height: 10%;

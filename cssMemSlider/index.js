@@ -1,11 +1,7 @@
 const buttons = document.querySelectorAll('.button');
 const first = document.getElementById('0');
-const second = document.getElementById('2');
-const therd = document.getElementById('3');
-const forth = document.getElementById('4');
-const firth = document.getElementById('5');
 const text = document.querySelector('.text');
-const picture = document.querySelector('.picture')
+const picture = document.querySelector('.picture');
 
 
 let content = [
@@ -37,8 +33,6 @@ let content = [
 ];
 
 function choose (item) {
-    // console.log(!this.id);
-    // console.log(buttons.length);
     if (first.classList.contains('choosed')) {
         first.classList.remove('choosed')
     } else { 
